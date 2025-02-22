@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .map(item => item.value)
             .join(", ") || "Nenhum";
 
-        let url = `https://wa.me/${telefone}?text=${mensagem}🍝 *Massa:* ${massa}%0A🥫 *Molho:* ${molho}%0A🍖 *Carne:* ${carne}%0A🍽️ *Acompanhamentos:* ${acompanhamentos}`;
+        let url = `https://wa.me/${telefone}?text=${mensagem}🍝 *Massa:* ${massa}%0A🥫 *Molho:* ${molho}%0A🍖 *Carne:* ${carne}%0A🍽️ *Acompanhamentos:* </br> ${acompanhamentos}`;
         window.open(url, "_blank");
     });
 });

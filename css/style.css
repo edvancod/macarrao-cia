@@ -1,28 +1,28 @@
 
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+}
 body {
     font-family: Arial, sans-serif;
 }
 .primeira_section {
-    background-color: rgb(1, 1, 1);
+    background-color: hsl(0, 0%, 0%);
     border-radius: 15px;
     padding: 8px;
     color: #fff;
 }
 
 .ultima_section {
-    background-color: #047e04;
+  
     border-radius: 15px;
     padding: 8px;
 }
 
-.container {
-    max-width: 400px;
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #000;
-    border-radius: 10px;
-}
 
 h2, p {
     text-align: center;
@@ -58,11 +58,7 @@ h2, p {
 }
 
 #sendBtn {
-    background-color: #f10404;
     width: 100%;
-    padding: 16px;
-    border-radius: 5px;
-    border: none;
     font-size: 18px;
     color: #fffdfd;
     font-weight: bold;
