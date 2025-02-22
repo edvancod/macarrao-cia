@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido - Macarrão e Cia</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="primeira_section">
+        <h2>MACARRÃO E CIA</h2>
+        <p>📞 98350-8750</p>
+    </div>
+
+    <div class="section">
+        <h3>TAMANHO:</h3>
+        <div class="itens">
+            <label><input type="radio" name="tamanho" value="M"> Massa M</label>
+            <label><input type="radio" name="tamanho" value="G"> Massa G</label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>🍝 MASSA (1):</h3>
+        <div class="itens">
+            <label><input type="radio" name="massa" value="espaguete"> Espaguete</label>
+            <label><input type="radio" name="massa" value="pene"> Pene</label>
+            <label><input type="radio" name="massa" value="talharim"> Talharim</label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>🍜 MOLHO (1):</h3>
+        <div class="itens">
+            <label><input type="radio" name="molho" value="bolonhesa"> Bolonhesa</label>
+            <label><input type="radio" name="molho" value="branco"> Branco</label>
+            <label><input type="radio" name="molho" value="tomate"> Tomate</label>
+            <label><input type="radio" name="molho" value="alho_oleo"> Alho e Óleo</label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>🍖 CARNE (1):</h3>
+        <div class="itens">
+            <label><input type="radio" name="carne" value="frango"> Frango</label>
+            <label><input type="radio" name="carne" value="carne"> Carne</label>
+            <label><input type="radio" name="carne" value="sardinha"> Sardinha</label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>🍽️ ACOMPANHAMENTOS (À VONTADE):</h3>
+        <div class="item_acompanhamento">
+            <div class="itens item">
+                <label><input type="checkbox" name="acompanhamento" value="azeitona"> Azeitona</label>
+                <label><input type="checkbox" name="acompanhamento" value="cheiro_verde"> Cheiro Verde</label>
+                <label><input type="checkbox" name="acompanhamento" value="uva_passa"> Uva Passa</label>
+            </div>
+            <div class="itens item">
+                <label><input type="checkbox" name="acompanhamento" value="tomate"> Tomate</label>
+                <label><input type="checkbox" name="acompanhamento" value="calabresa"> Calabresa</label>
+                <label><input type="checkbox" name="acompanhamento" value="cebola"> Cebola</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="section ultima_section">
+        <h3>🌿 TEMPEROS (À VONTADE):</h3>
+        <div class="itens">
+            <label><input type="checkbox" name="tempero" value="alho_frito"> Alho Frito</label>
+            <label><input type="checkbox" name="tempero" value="oregano"> Orégano</label>
+            <label><input type="checkbox" name="tempero" value="pimenta_calabresa"> Pimenta Calabresa</label>
+            <label><input type="checkbox" name="tempero" value="manjericao"> Manjericão</label>
+        </div>
+    </div>
+
+    <button type="submit" id="sendBtn">Enviar Pedido</button>
+</div>
+
+<script src="./script/main.js"></script>
+
+</body>
+</html>
