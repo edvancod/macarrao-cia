@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("sendBtn").addEventListener("click", function () {
-        let telefone = "5561985945661"; 
+        let telefone = "5561983508750"; 
         let mensagem = "*Pedido - Macarrão e Cia*%0A%0A";
 
         let tamanho = document.querySelector("input[name='tamanho']:checked")?.value || "Não informado";
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .map(item => item.value)
             .join(", ") || "Nenhum";
 
-        let url = `https://wa.me/${telefone}?text=${mensagem}🍝 *Massa:* ${massa}%0A🥫 *Molho:* ${molho}%0A🍖 *Carne:* ${carne}%0A🍽️ *Acompanhamentos:* - ${acompanhamentos}`;
+        let url = `https://wa.me/${telefone}?text=${mensagem}🍝 *Massa:* ${massa}%0A🥫 *Molho:* ${molho}%0A🍖 *Carne:* ${carne}%0A🍽️ *Acompanhamentos:* %0A ${acompanhamentos}`;
         window.open(url, "_blank");
     });
 });
